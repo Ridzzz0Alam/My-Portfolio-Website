@@ -11,7 +11,7 @@ import dynamic from "next/dynamic";
 
 const Home = () => {
   return (
-    <main className="relative bg-black-100 justify-center items-center flex-col overflow-hidden mx-auto am:px-10 px-5">
+    <main className="relative bg-black-100 justify-center items-center flex-col mx-auto am:px-10 px-5 overflow-clip">
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
